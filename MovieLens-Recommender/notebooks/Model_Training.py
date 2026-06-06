@@ -346,7 +346,7 @@ os.makedirs(
     exist_ok=True
 )
 
-model_path = "MovieLens-Recommender/models/svd_model.pkl"
+model_path = "Movie:models/svd_model.pkl"
 
 with open(
         model_path,
