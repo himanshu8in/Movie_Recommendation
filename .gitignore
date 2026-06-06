@@ -6,7 +6,6 @@ env/
 
 .ipynb_checkpoints/
 
-models/
 
 .DS_Store
 Thumbs.db
