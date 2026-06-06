@@ -45,7 +45,7 @@ print("Loading Dataset...")
 print("=" * 50)
 
 ratings = pd.read_csv(
-    "MovieLens-Recommender/data/u.data",
+    "data/u.data",
     sep="\t",
     names=[
         "user_id",
@@ -56,7 +56,7 @@ ratings = pd.read_csv(
 )
 
 movies = pd.read_csv(
-    "MovieLens-Recommender/data/u.item",
+    "data/u.item",
     sep="|",
     encoding="latin-1",
     header=None,

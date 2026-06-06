@@ -14,14 +14,14 @@ print("Step 5")
 from src.collaborative import recommend_movies
 
 print("Step 6")
-ratings, movies, users = load_data("MovieLens-Recommender/data")
+ratings, movies, users = load_data("data")
 
 print("Ratings:", ratings.shape)
 print("Movies:", movies.shape)
 print("Users:", users.shape)
 
 print("Step 7")
-with open("MovieLens-Recommender/models/svd_model.pkl", "rb") as f:
+with open("models/svd_model.pkl", "rb") as f:
     model = pickle.load(f)
 
 print("Step 8")

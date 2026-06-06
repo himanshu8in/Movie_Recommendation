@@ -41,7 +41,7 @@ This project implements:
 ## 📂 Project Structure
 
 ```text
-MovieLens-Recommender/
+Movie-Recommendation/
 │
 ├── data/
 │   ├── u.data

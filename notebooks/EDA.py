@@ -8,13 +8,13 @@ warnings.filterwarnings('ignore')
 plt.style.use('ggplot')
 
 ratings = pd.read_csv(
-    "MovieLens-Recommender/data/u.data",
+    "data/u.data",
     sep = "\t",
     names = ["user_id","movie_id","rating","timestamp"]
 )
 
 movies = pd.read_csv(
-    "MovieLens-Recommender/data/u.item",
+    "data/u.item",
     sep = "|",
     encoding="latin-1",
     usecols=[0,1],
@@ -22,7 +22,7 @@ movies = pd.read_csv(
 )
 
 users = pd.read_csv(
-    "MovieLens-Recommender/data/u.user",
+    "data/u.user",
     sep="|",
     names=["user_id","age","gender","occupation","zip_code"]
 )
